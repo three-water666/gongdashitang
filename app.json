@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/foods_list/foods_list",
+    "pages/foods_detail/foods_detail",
+    "pages/recommendation/recommendation",
+    "pages/collection/collection",
+    "pages/category/category",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2267b1",
+    "navigationBarTitleText": "工大食堂",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/foods_list/foods_list",
+      "text": "菜谱",
+      "iconPath": "icons/caipu.png",
+      "selectedIconPath": "icons/caipu_.png"
+    },
+    {
+      "pagePath": "pages/recommendation/recommendation",
+      "text": "推荐",
+      "iconPath": "icons/tuijian.png",
+      "selectedIconPath": "icons/tuijian_.png"
+    },
+    {
+      "pagePath": "pages/collection/collection",
+      "text": "收藏",
+      "iconPath": "icons/shoucang.png",
+      "selectedIconPath": "icons/shoucang_.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath": "icons/user.png",
+      "selectedIconPath": "icons/user_.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

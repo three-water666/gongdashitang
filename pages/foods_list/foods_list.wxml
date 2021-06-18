@@ -1,0 +1,5 @@
+<!--pages/foods_list/foods_list.wxml-->
+<!-- <text>pages/foods_list/foods_list.wxml</text> -->
+<view class="caipu">
+  <SearchInput></SearchInput>
+</view>
